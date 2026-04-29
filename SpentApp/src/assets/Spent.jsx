@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import { LuX, LuPlus } from 'react-icons/lu';
 import { MdAttachMoney, MdShoppingBag } from 'react-icons/md';
-import Sidebar from './Sidebar';
-import Header from './Header';
-import StatCard from './StatCard';
-import DashboardCharts from './DashboardCharts';
-import TransactionList from './TransactionList';
-import AIPanel from './AIPanel';
+import Sidebar from '../Sidebar';
+import Header from '../Header';
+import StatCard from '../StatCard';
+import DashboardCharts from '../DashboardCharts';
+import TransactionList from '../TransactionList';
+import AIPanel from '../AIPanel';
 
 export default function Spent() {
   const [activeMenu, setActiveMenu] = useState(null);
