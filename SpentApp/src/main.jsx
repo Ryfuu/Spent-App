@@ -1,12 +1,10 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import Spent from './assets/Spent.jsx';
+import Spent from './Spent.jsx';
 
 
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
     <Spent />
-  </StrictMode>,
 )
