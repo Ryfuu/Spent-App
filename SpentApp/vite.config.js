@@ -12,7 +12,7 @@ build: {
       external: [/^react-icons/], 
     },
   },
-  optimizeDeps: {
+optimizeDeps: {
     include: ['react-icons', '@google/generative-ai'],
   },
 })
